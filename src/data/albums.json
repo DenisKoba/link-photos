@@ -1,0 +1,19 @@
+{
+  "data": [
+    {
+      "photos": ["1", "2", "3"],
+      "name": "vacation",
+      "id": "1"
+    },
+    {
+      "photos": ["4", "5", "6"],
+      "name": "personal",
+      "id": "2"
+    },
+    {
+      "photos": ["7", "8", "9"],
+      "name": "all",
+      "id": "3"
+    }
+  ]
+}
