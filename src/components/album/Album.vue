@@ -24,12 +24,12 @@ const props = defineProps({
   },
 });
 
-const emit = defineEmits(['dragover', 'mounted', 'dragleave']);
-const debouncedDrqgOver = debounce(() => emit('dragover', props.album.id), 500);
+const emit = defineEmits(['dragover', 'mounted']);
+const debouncedDragOver = debounce(() => emit('dragover', props.album.id), 500);
 
 function overAlbum(): void {
   activate();
-  debouncedDrqgOver();
+  debouncedDragOver();
 }
 
 onMounted(() => emit('mounted'));
